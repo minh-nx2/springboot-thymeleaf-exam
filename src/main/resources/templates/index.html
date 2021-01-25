@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout}">
+
+<head>
+    <title>Spring Boot Exam</title>
+</head>
+<body>
+<div class="col-auto">
+    <span>Running on server</span>
+    <span th:text="*{serverAddress}"/>
+</div>
+</body>
+</html>
