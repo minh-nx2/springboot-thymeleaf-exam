@@ -2,7 +2,7 @@ version: '1'
 services:
   springboot-thymeleaf-exam:
     build: .
-    image: mcr.microsoft.com/azuredocs/springboot-thymeleaf-exam:v1
+    image: mcr.microsoft.com/azuredocs/springboot-thymeleaf:0.0.1-SNAPSHOT
     container_name: springboot-thymeleaf-exam
     ports:
         - "8080:80"
