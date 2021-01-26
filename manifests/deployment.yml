@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: minhnxspringbootthymeleafexam 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: minhnxspringbootthymeleafexam
+  template:
+    metadata:
+      labels:
+        app: minhnxspringbootthymeleafexam 
+    spec:
+      containers:
+        - name: minhnxspringbootthymeleafexam 
+          image: springbootexam1.azurecr.io/minhnxspringbootthymeleafexam
+          ports:
+          - containerPort: 8080
