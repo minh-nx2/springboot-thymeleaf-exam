@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '163b4430-f556-4274-a043-c10441a2dc79'
   imageRepository: 'minhnxspringbootthymeleafexam'
   containerRegistry: 'springbootexam221.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/Dockerfile.cicd'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'springbootexam2213433-auth'
 
