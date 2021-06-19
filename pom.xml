@@ -22,7 +22,7 @@
              <artifactId>newrelic-agent</artifactId>
              <version>7.0.1</version>
              <scope>provided</scope>
-             <type>zip</type>
+             <type>jar</type>
          </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
